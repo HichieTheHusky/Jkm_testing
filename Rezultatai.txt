@@ -1,0 +1,6 @@
+Kaunas  1500 Lietuva
+Kaunas2  1500 Lietuva2
+Vilnius  1333 Lietuva
+Vilnius2  1333 Lietuva2
+Palanga  1000 Lietuva
+Palanga2  1000 Lietuva2

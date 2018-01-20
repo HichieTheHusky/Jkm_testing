@@ -1,0 +1,5 @@
+Lietuva
+Kaunas 2000 3000000
+Vilnius 3000 4000000
+Palanga 2000 2000000
+Kaimas 100 100
