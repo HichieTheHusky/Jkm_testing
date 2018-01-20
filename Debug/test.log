@@ -1,13 +1,51 @@
-﻿Build started 2018-01-20 13:02:44.
-     1>Project "Z:\c++\15 sav\Lukas_Zumaras\Lukas_Zumaras\test\test.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2018-01-20 16:06:43.
+     1>Project "C:\Users\PG4369SR\Documents\Visual Studio 2012\Projects\lukas zumaras\test.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\c++\15 sav\Lukas_Zumaras\Lukas_Zumaras\test\Debug\test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\c++\15 sav\Lukas_Zumaras\Lukas_Zumaras\test\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\c++\15 sav\Lukas_Zumaras\Lukas_Zumaras\test\Debug\test.lib" /MACHINE:X86 Debug\Source.obj
-         test.vcxproj -> Z:\c++\15 sav\Lukas_Zumaras\Lukas_Zumaras\test\Debug\test.exe
-     1>Done Building Project "Z:\c++\15 sav\Lukas_Zumaras\Lukas_Zumaras\test\test.vcxproj" (Build target(s)).
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(23): error C2065: 'CRfv' : undeclared identifier
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(39): error C2065: 'CDfv1' : undeclared identifier
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(115): error C2001: newline in constant
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(116): error C2146: syntax error : missing ';' before identifier 'string'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(116): error C2146: syntax error : missing ';' before identifier 'pav'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(116): error C2275: 'std::string' : illegal use of this type as an expression
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(2300) : see declaration of 'std::string'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(116): error C2065: 'pav' : undeclared identifier
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(116): error C2065: 'rtfgh' : undeclared identifier
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(116): error C2144: syntax error : 'int' should be preceded by ';'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(121): error C2065: 'CRfv' : undeclared identifier
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(131): error C2601: 'main' : local function definitions are illegal
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(112): this line contains a '{' which has not yet been matched
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(154): error C2601: 'print' : local function definitions are illegal
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(112): this line contains a '{' which has not yet been matched
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(159): error C2601: 'Raktas' : local function definitions are illegal
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(112): this line contains a '{' which has not yet been matched
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(164): error C2601: 'rik' : local function definitions are illegal
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(112): this line contains a '{' which has not yet been matched
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(180): error C2601: 'rast' : local function definitions are illegal
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(112): this line contains a '{' which has not yet been matched
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(196): error C2601: 'read' : local function definitions are illegal
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(112): this line contains a '{' which has not yet been matched
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(210): error C2601: 'hello' : local function definitions are illegal
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(112): this line contains a '{' which has not yet been matched
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(215): error C2001: newline in constant
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(216): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(137): error C2065: 'CDfv1' : undeclared identifier
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(156): error C2059: syntax error : '<<'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(156): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(170): error C2664: 'Raktas' : cannot convert parameter 1 from 'hello::gal_m' to 'gal_m'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(172): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'hello::gal_m' (or there is no acceptable conversion)
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(16): could be 'gal_m &gal_m::operator =(const gal_m &)'
+                 while trying to match the argument list '(gal_m, hello::gal_m)'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(174): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'gal_m' (or there is no acceptable conversion)
+                 c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(116): could be 'hello::gal_m &hello::gal_m::operator =(const hello::gal_m &)'
+                 while trying to match the argument list '(hello::gal_m, gal_m)'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(214): error C2059: syntax error : '}'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(217): error C2059: syntax error : '}'
+     1>c:\users\pg4369sr\documents\visual studio 2012\projects\lukas zumaras\source.cpp(217): error C2143: syntax error : missing ';' before '}'
+     1>Done Building Project "C:\Users\PG4369SR\Documents\Visual Studio 2012\Projects\lukas zumaras\test.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:02.93
+Time Elapsed 00:00:01.91
